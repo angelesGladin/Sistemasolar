@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>space</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <header>
+        <div class="inicio">
+          <img src="./Imagenes/logonasa1.jpg" alt="NASA">
+          <h1>El Sistema Solar</h1>
+        </div>
+    </header>
+    <div class="sistema">
+        <h1>¿Qué es el sistema solar?</h1>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Imagenes/imgsolar.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagenes/sistemasolar.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <p>Es un sistema planetario constituido por una estrella que ejerce atracción gravitacional sobre los cuerpos celestes que giran a su alrededor. Según la NASA, se cree que nuestro sistema solar se formó a partir de una sola nube plana de gas. Principalmente, está compuesto por el Sol y los elementos que lo orbitan. Ubicado en un brazo exterior de la Vía Láctea, alberga mucho más que a la Tierra y que a otros planetas conocidos. Este complejo entramado espacial está formado por 8 planetas.</p>
+    </div>
+
+    <!--boton1-->
+    <div class="boton">
+        <button class="ab" onclick="mostrar();">Quiero saber más</button>
+
+        <button class="ab" onclick="ocultar();">Ocultar información</button>
+    </div>
+    <div id="contenedor">
+    <!--primera card-->
+        <div class="card" style="width: 18rem;">
+            <img src="./Imagenes/fotosol.jpg" class="card-img-top" alt="estrella">
+            <div class="card-body">
+                <h5 class="card-title">SOL</h5>
+                <p class="card-text">Nuestro sol es una bola brillante y caliente de hidrógeno y helio en el centro de nuestro sistema solar. Tiene un diámetro de 864.000 millas (1.392.000 km), 109 veces más ancho que la Tierra. Es 10.000 grados Fahrenheit (5.500 grados Celsius) en la superficie, y 27 millones de grados Fahrenheit (15.000.000 grados centígrados) en el núcleo. ¡Impresionante!. Resulta que nuestro sol es una estrella de tamaño medio. Hay estrellas más grandes, y hay estrellas más pequeñas.</p>
+                <a href="https://starchild.gsfc.nasa.gov/docs/StarChild_Spanish/docs/StarChild/solar_system_level2/sun.html#:~:text=El%20Sol%20es%20una%20estrella,a%2015.000.000%20grados%20Celsius." class="btn btn-primary">CONOCE MÁS</a>
+            </div>
+        </div>
+    
+    <!--segunda card-->
+        <div class="card" style="width: 18rem;">
+           <img src="./Imagenes/mercurio.jpg" class="card-img-top" alt="estrella">
+           <div class="card-body">
+               <h5 class="card-title">MERCURIO</h5>
+               <p class="card-text">Mercurio es el planeta más pequeño de nuestro sistema solar. Es apenas un poco más grande que la Luna de la Tierra. Tiene una superficie sólida que está cubierta de cráteres. En lugar de una atmósfera, Mercurio posee una delgada exosfera formada por átomos expulsados de la superficie por el viento solar y los meteoritos que chocan contra él. La exosfera de Mercurio está compuesta principalmente de oxígeno, sodio, hidrógeno, helio y potasio. Mercurio no tiene lunas.</p>
+               <a href="https://spaceplace.nasa.gov/all-about-mercury/sp/#:~:text=Mercurio%20tiene%20una%20exosfera%20delgada,planeta%20m%C3%A1s%20caliente%20es%20Venus." class="btn btn-primary">CONOCE MÁS</a>
+           </div>
+        </div>
+
+    <!--tercera card-->
+        <div class="card" style="width: 18rem;">
+            <img src="./Imagenes/venus.jpg" class="card-img-top" alt="estrella">
+            <div class="card-body">
+                <h5 class="card-title">VENUS</h5>
+                <p class="card-text">Venus es poco común porque gira en dirección contraria a la de la Tierra y la mayoría de los otros planetas. Y su rotación es muy lenta. Tarda alrededor de 243 días terrestres en girar solo una vez. Debido a que está tan cerca del Sol, un año pasa muy rápido. Venus tarda 225 días terrestres en dar toda la vuelta alrededor del Sol. Esto significa que, en Venus, un día es un poco más largo que un año.</p>
+                <a href="https://spaceplace.nasa.gov/all-about-venus/sp/" class="btn btn-primary">CONOCE MÁS</a>
+            </div>
+        </div>
+    
+    <!--cuarta card-->
+        <div class="card" style="width: 18rem;">
+            <img src="./Imagenes/marte.jpg" class="card-img-top" alt="estrella">
+            <div class="card-body">
+                <h5 class="card-title">MARTE</h5>
+                <p class="card-text">Marte es un mundo frío y desértico. La temperatura media en Marte es de -65 grados Celsius (-85 grados Fahrenheit), muy por debajo del punto de congelación. Marte tiene la mitad del tamaño de la Tierra. A veces es llamado el planeta rojo. Es rojo debido al hierro oxidado de su suelo.</p>
+                <a href="https://spaceplace.nasa.gov/all-about-mars/sp/" class="btn btn-primary">CONOCE MÁS</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="contenedor2">
+    <!--quinta card-->
+        <div class="card" style="width: 18rem;">
+            <img src="./Imagenes/jupiter.jpg" class="card-img-top" alt="estrella">
+            <div class="card-body">
+                <h5 class="card-title">JUPITER</h5>
+                <p class="card-text">Júpiter es el planeta más grande de nuestro sistema solar es un gigante gaseoso y no tiene una superficie sólida. Todavía no está claro si en el fondo Júpiter tiene un núcleo central de material sólido o si podría ser una sopa espesa, supercaliente y densa. Júpiter también tiene anillos, pero son demasiado tenues para verlos con claridad.</p>
+                <a href="https://spaceplace.nasa.gov/all-about-jupiter/sp/#:~:text=J%C3%BApiter%20es%20el%20planeta%20m%C3%A1s,desde%20hace%20cientos%20de%20a%C3%B1os." class="btn btn-primary">CONOCE MÁS</a>
+            </div>
+        </div>
+
+    <!--sexta card-->
+        <div class="card" style="width: 18rem;">
+            <img src="./Imagenes/saturno.jpg" class="card-img-top" alt="estrella">
+            <div class="card-body">
+                <h5 class="card-title">SATURNO</h5>
+                <p class="card-text">Saturno no es el único planeta que tiene anillos, pero definitivamente tiene los más bellos. Los anillos que vemos están compuestos por grupos de pequeños aros que rodean a Saturno. Están hechos de pedazos de hielo y roca. Como Júpiter, Saturno es una pelota de hidrógeno y helio, en gran parte.</p>
+                <a href="https://spaceplace.nasa.gov/all-about-saturn/sp/" class="btn btn-primary">CONOCE MÁS</a>
+            </div>
+        </div>  
+
+    <!--septima card-->
+        <div class="card" style="width: 18rem;">
+            <img src="./Imagenes/urano.jpg" class="card-img-top" alt="estrella">
+            <div class="card-body">
+                <h5 class="card-title">URANO</h5>
+                <p class="card-text">Urano está compuesto de agua, metano y amoniaco sobre un pequeño centro rocoso. Su atmósfera está hecha de hidrógeno y helio, como Júpiter y Saturno, pero además contiene metano. El metano es lo que le da a Urano el color azul.Los anillos externos tienen colores vivos y son más fáciles de ver.</p>
+                <a href="https://spaceplace.nasa.gov/all-about-uranus/sp/" class="btn btn-primary">CONOCE MÁS</a>
+            </div>
+        </div>
+    
+    <!--octaba card-->
+        <div class="card" style="width: 18rem;">
+            <img src="./Imagenes/neptuno.jpg" class="card-img-top" alt="estrella">
+            <div class="card-body">
+                <h5 class="card-title">NEPTUNO</h5>
+                <p class="card-text">Es el último de los planetas de nuestro sistema solar. Está más de 30 veces más lejos del Sol que la Tierra. Está compuesto de una espesa mezcla de agua, amoniaco y metano sobre un centro sólido del tamaño de la Tierra. Su atmósfera se compone de hidrógeno, helio y metano. Neptuno tiene seis anillos que no se ven fácilmente.</p>
+                <a href="https://spaceplace.nasa.gov/all-about-neptune/sp/" class="btn btn-primary">CONOCE MÁS</a>
+            </div>
+        </div>
+    </div>
+    <div class="tittle">
+        <h1>Conozcamos sobre nuestro planeta</h1>
+    </div> 
+    <!--carrusel-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Imagenes/satelital.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>POSICIÓN DEL PLANETA TIERRA</h5>
+              <p>La tierra es el tercer planeta desde el Sol y quinto en cuanto a tamaño. Gira describiendo una órbita elíptica al rededor del Sol, a unos 150 millones de kilómetros,en, aproximadamente, un año. Al mismo tiempo gira sobre su propio eje cada día.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+          <img src="./Imagenes/todatierra.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>DESCRIPCIÓN</h5>
+              <p>Mantiene un diámetro de 12,756 kilómetros, una masa de 5,973 x 1024 kilográmos, volumen de 1,08321 x 1012 kilómetros, tiene una orbita media siendo de 149,6 x 106 kilómetros, su año con una duración de 365.22 días, rotación de 23 horas y 56 segundos, mantiene una gravedad de 9,780327 m/s2, tiene un satelite natural y su admosfera es de 78% N2, 21% O2.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+          <img src="./Imagenes/nucleotierra.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>COMPOSICIÓN</h5>
+              <p>La superficie terrestre o corteza está divida en varias placas tectónicas que se deslizan sobre el magma durante periodos de varios millones de años. La superficie está cubierta por continentes e islas, estos poseen varios lagos, rios y otras fuentes de agua, que juntos con los océanos de agua salada que representan cerca de 71% de la hidrosfera. No se conoce ningún otro planeta con equilibrio de agua líquida, es indispensable para cualquier tipo de vida conocida.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <footer>
+        <div class="lema">
+          <img src="./Imagenes/logo.png" alt="">
+          <h1>The National Aeronautics and Space Administration</h1>
+        </div>
+        <div class="final">
+          <nav>
+            <ol>
+              <li><a href="https://www.nasa.gov/"><p>Home</p></a></li>
+              <li><a href="https://www.facebook.com/NASA"><p>Social media</p></a></li>
+              <li><a href="https://www.nasa.gov/news/all-news/"><p>News</p></a></li>
+              <li><a href="https://www.nasa.gov/images/"><p>Images</p></a></li>
+            </ol>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

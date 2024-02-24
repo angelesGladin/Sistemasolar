@@ -1,0 +1,160 @@
+body{
+
+    background-image: url(./Imagenes/Fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-fluid{
+    width: 100%;
+}
+
+header{
+    margin: 10px 60px 30px 60px; 
+    background-color: rgb(36, 36, 36);
+}
+.inicio{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    justify-content:space-between;
+}
+.inicio img{
+    width: 400px;
+    height: 200px;
+}
+.inicio h1{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px 50px 0 0;
+}
+
+.sistema h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    color:black;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sistema p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 0 0 0;
+}
+.imagen{
+    width: 80%;
+    height: 300px;
+}
+.boton{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center; 
+}
+.ab{
+    background-color: black;
+    width: 10%;
+    height: 10%;
+    margin: 3% 0 5% 0;
+    font-size: medium;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+#contenedor{
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 1% 0 1%;
+}
+.card{
+    display: flex;
+    margin: 40px;
+
+}
+#contenedor2{
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 1% 0 1%;  
+}
+.tittle{
+    margin: 10px 60px 30px 60px; 
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: azure;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.carousel-inner h5{
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(203, 4, 4);
+}
+.carousel-item h5{
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(203, 4, 4);
+}
+.carousel-inner p{
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(8, 155, 64);
+}
+.carousel-item p{
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(8, 155, 64);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.lema{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lema img{
+    width: 90px;
+    height: 70px;
+}
+.lema h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white; 
+    margin: 10px 0 0 10px;
+}
+.final{
+    display: flex;
+    justify-content: center;
+}
+.final ol{
+    display: flex;
+    flex-direction: row;
+}
+.final ol p{
+    text-decoration-line: none;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+}
